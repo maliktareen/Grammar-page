@@ -1,0 +1,312 @@
+
+
+body {
+	background-color: white;
+	box-sizing: border-box;}
+
+.navigationbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigationbar li {
+  float: right;
+}
+
+.navigationbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 3s;
+}
+
+.navigationbar li a:hover {
+  background-color: #ccffaa;
+}
+
+
+
+
+.wrapper {
+	padding: 0 5px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	gap: 2rem;
+}
+.textimage1 {
+	flex: 1;
+	margin: 5px;
+	background-color: #c77117;
+	padding: 50px;
+
+}
+
+.textimage1 h1 {
+	padding: 10;
+	margin-bottom: 20px;
+	font-family: Arial;
+	text-align: center;
+	font-size: 40px;
+
+}
+
+.textimage1 p {
+	font-family: Arial;
+
+}
+
+
+.Grammar {
+	text-align: center;
+	justify-content:center ;
+	margin: 10px;
+	background-color: #ccccf1;
+	display: inline-block;
+
+
+}
+
+.Grammar {
+	flex: 1;
+}
+
+.Grammar img{
+	width: 500px;
+	height: auto;
+	float: left;
+}
+
+.Grammartext {
+	background-color: rgb(168, 109, 50);
+	color: white;
+	columns: 2;
+	display: block;
+}
+
+.Grammartext h1 {
+		
+	text-align: center;
+	display: flex;
+	display: block;
+}
+
+.Grammartext p {
+	text-align: center;
+	font-size: 35px;
+	display: inline-block;
+	margin: 10px;
+	float: right;
+	color: #ccffaa;
+}
+
+.pratsofspeech {
+	font-family: Arial;
+	font-family: 25px;
+	margin: auto;
+	width: 50%;
+	margin: auto;
+	background-color: #ffa4fa;
+	margin-bottom: 20px;
+	padding: 30px;
+}
+
+.pratsofspeech h1 {
+	text-align: center;
+	margin: 10px;
+
+}
+
+ .pratsofspeech p {
+ 	font-family: roboto;
+ }
+
+.partsofspeechlist {
+	font-size: 15px;
+	display: flex;
+
+}
+	
+
+
+.speech {
+	display: block;
+	font-family: Arial;
+
+}
+
+
+}
+.speech ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+}
+.partsofspeechlist {
+	display: block;
+	text-align: center;
+
+}
+
+.partsofspeechlist p {
+	font-family: Arial;
+	font-size: 25px;
+
+}
+.speech {
+	display: inline-block;
+	margin: 20px 20px;
+	background-color: #f5c6a5;
+	margin-left: 20%;
+	padding: 30px;
+}
+
+.speech ul li {
+	margin: 10px 0;
+	background-color: #f3c5a2;
+	list-style-type: none;
+
+}
+
+.speech span {
+	font-weight: bold;
+	font-size: 25px;
+	background-color: #404040;
+	color: white;
+}
+
+.Noun {
+	margin: 5px;
+	font-family: roboto;
+	font-size: 15px;
+}
+
+.Noun h1 {
+	text-decoration: underline;
+	margin: 10px;
+}
+
+.Noun p {
+	font-weight: bold;
+	font-family: roboto;
+	font-size: 20px;
+}
+
+#Nounlist ul li  {
+	margin: 20px;
+
+}
+
+li span {
+	font-weight: bold;
+	font-size: 20px;
+	font-family: roboto;
+}
+
+.englishtip {
+	background-color: #ccaa66;
+	border: 1px solid ;
+	margin: 10px;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 5px;
+	margin-left: 30%;
+	
+}
+
+.englishtip h3 {
+	clip-path: #cc1177;
+	
+	display: inline-block;
+	
+}
+
+.englishtip p {
+	color: white;
+	font-family: roboto;
+	font-size: 20px;
+	padding: 5px;
+}
+.Nountypes {
+	display: inline-block;
+	width: 100%;
+}
+.Nountypes img {
+	width: 45%;
+	height: auto;
+	float: left;
+	border: 1px solid;
+	border-radius: 5px;
+	display: block;
+
+
+}
+
+.NountypesText {
+	font-family: roboto;
+	font-size: 18px;
+	text-align: left;
+	text-align: center;
+	border: 1px solid;
+	float: right;
+	width: 53%;
+	height: 340px;
+	display: block;
+	
+
+}
+
+.NountypesText h2 {
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.NountypesText p {
+	margin-right: 50px;
+}
+
+.pronounimage img {
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: #404040;
+	margin: 10px;
+	
+}
+
+.pronoun h1 {
+	font-family: roboto;
+	font-size: 40px;
+	margin-top: 130px;
+	text-align: center;
+	
+}
+.pronoun p {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.typesofprount h1{
+	text-decoration: underline;
+	text-decoration-color: #c77117;
+	font-weight: bold;
+	font-family: roboto;
+	margin-bottom: 0px;
+	
+}
+
+table {
+	width: 70%;
+	text-align: center;
+	padding: 5px;
+	border: none;
+}
+
+

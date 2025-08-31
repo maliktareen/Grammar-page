@@ -1,0 +1,70 @@
+
+
+
+.dppic img {
+    float: left;
+    margin-left: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+.profielebar img {
+    width: 30%;
+    float: left;
+   
+}
+
+
+.pronoundetails {
+    background-color: rgb(209, 180, 141);
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    font-size: 22px;
+    font-family: roboto;
+    margin: 5px;
+   
+    
+}
+.pronoundetails h1 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.pronoundetails p {
+    margin-left: 25px;
+
+}
+
+.pronoundetails p span {
+    color: blue;
+    font-weight: bold;
+}
+
+.pronoun-Examples {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(209, 210, 141);
+    padding: 20px;
+    text-align: center;
+}
+
+.pronoun-Examples h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0%;
+
+}
+
+.pronoun-Examples p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.pronoun-Examples p span {
+    color: darkblue;
+}
