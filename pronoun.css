@@ -1,15 +1,6 @@
 
 
 
-.dppic img {
-    float: left;
-    margin-left: 20px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
-
 .profielebar img {
     width: 30%;
     float: left;
@@ -25,6 +16,7 @@
     font-size: 22px;
     font-family: roboto;
     margin: 5px;
+   
    
     
 }
@@ -50,6 +42,10 @@
     background-color: rgb(209, 210, 141);
     padding: 20px;
     text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
 }
 
 .pronoun-Examples h1 {
@@ -67,4 +63,82 @@
 
 .pronoun-Examples p span {
     color: darkblue;
+}
+
+#pronoun-tyeps-heading h1 {
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: underline;
+    background-color: rgb(247, 202, 144);
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 30px;
+    margin-left: 40%;
+}
+
+.personalpronoun {
+    width: 100%;
+    border: 1px solid black;
+   
+    display: inline-block;
+   align-content: center;
+    float: left;
+    
+}
+
+.personalpronoun h1 {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+   
+}
+
+.personalpronoun p {
+    
+    padding: auto;
+    text-align: center;
+    font-weight: bolder;
+   }
+.personalpronoun-details-image img{
+    margin: 10px;
+    width: auto;
+    margin-left: 60px;
+    padding: 20px;
+    display: block;
+
+    
+
+}
+
+.personalpronountypes {
+    margin-left: 60px;
+    text-align: left;
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    display: inline-block;
+    width: 70%;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.personalpronountypes h1 {
+    text-decoration: underline;
+    text-decoration-color: rgb(206, 112, 112);
+}
+
+.personalpronountypes p {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.personalpronountypes p span {
+    font-weight: bolder;
+    color: brown;
+    font-size: 25px;
 }

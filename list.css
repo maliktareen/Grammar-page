@@ -69,6 +69,7 @@ body {
 	margin: 10px;
 	background-color: #ccccf1;
 	display: inline-block;
+	display: flex;
 
 
 }
@@ -88,6 +89,7 @@ body {
 	color: white;
 	columns: 2;
 	display: block;
+	flex: 1;
 }
 
 .Grammartext h1 {
@@ -307,6 +309,14 @@ table {
 	text-align: center;
 	padding: 5px;
 	border: none;
+
 }
 
+.table tr, th{
+	background-color: #c77117;
+}
 
+.table th, td {
+	background-color: #404040;
+	color: white;
+}
